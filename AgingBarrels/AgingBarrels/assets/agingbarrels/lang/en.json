@@ -1,0 +1,6 @@
+{
+  "block-agingcask": "Aging Cask",
+  "block-agingtank": "Aging Tank",
+  "helddesc-agingcask": "Liquids stored in this cask cure 2x faster.",
+  "helddesc-agingtank": "Liquids stored in this tank cure 10x faster."
+}

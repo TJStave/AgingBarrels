@@ -1,0 +1,27 @@
+{
+  "code": "agingcask",
+  "class": "AgingBarrels.BlockAgingBarrel",
+  "entityclass": "AgingBarrels.BlockEntityAgingBarrel",
+  "creativeinventory": { "general": [ "*" ] },
+  "attributes": {
+    "capacityLitres": 20,
+    "cureRate": 2,
+    "inventoryClassName": "agingcask"
+  },
+  "behaviors": [ { "name": "UnstableFalling" } ],
+  "shape": { "base": "block/agingcask" },
+  "blockmaterial": "Wood",
+  "resistance": 1.5,
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  }
+}

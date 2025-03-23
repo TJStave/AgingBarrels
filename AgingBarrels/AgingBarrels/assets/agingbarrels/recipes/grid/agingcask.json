@@ -1,0 +1,24 @@
+﻿{
+	"ingredientPattern": "HP_,RPR,_P_",
+	"width": 3,
+	"height": 3,
+	"ingredients": {
+		"H": {
+			"type": "item",
+			"code": "game:hammer-*",
+			"isTool": true
+		},
+		"P": {
+			"type": "item",
+			"code": "game:plank-*"
+		},
+		"R": {
+			"type": "item",
+			"code": "game:rod-*"
+		}
+	},
+	"output": {
+		"type": "block",
+		"code": "agingcask"
+	}
+}

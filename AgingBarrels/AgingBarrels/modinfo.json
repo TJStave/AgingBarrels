@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "agingbarrels",
+    "name": "Aging Barrels",
+    "authors": [
+        "PurplePi"
+    ],
+    "description": "Adds barrels for speeding up the aging process of alchohol",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}

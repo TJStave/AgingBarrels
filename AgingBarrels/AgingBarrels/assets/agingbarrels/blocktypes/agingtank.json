@@ -1,0 +1,28 @@
+{
+  "code": "agingtank",
+  "class": "AgingBarrels.BlockAgingBarrel",
+  "entityclass": "AgingBarrels.BlockEntityAgingBarrel",
+  "creativeinventory": { "general": [ "*" ] },
+  "attributes": {
+    "capacityLitres": 50,
+    "cureRate": 10,
+    "inventoryClassName": "agingtank"
+  },
+  "behaviors": [ { "name": "UnstableFalling" } ],
+  "shape": { "base": "block/agingtank" },
+  "blockmaterial": "Metal",
+  "resistance": 2,
+  "sounds": {
+    "place": "game:block/chute",
+    "break": "game:block/chute",
+    "hit": "game:block/chute",
+    "walk": "game:walk/glass"
+  },
+  "sidesolid": {
+    "up": true,
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  }
+}
