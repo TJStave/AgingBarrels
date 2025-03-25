@@ -61,7 +61,7 @@ namespace AgingBarrelsMod
             base.GetHeldItemInfo(inSlot, dsc, world, withDebugInfo);
 
             dsc.AppendLine("");
-            dsc.AppendLine(Lang.Get("agingbarrels:helddesc-" + inSlot.Itemstack.Block.LastCodePart()));
+            dsc.AppendLine(Lang.Get("agingbarrels:helddesc-" + inSlot.Itemstack.Block.FirstCodePart()));
         }
 
         public override string GetPlacedBlockInfo(IWorldAccessor world, BlockPos pos, IPlayer forPlayer)

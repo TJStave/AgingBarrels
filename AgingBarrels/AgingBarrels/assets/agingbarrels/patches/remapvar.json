@@ -1,0 +1,10 @@
+[
+  {
+    "file": "game:config/remaps.json",
+    "op": "add",
+    "path": "/agingbarrels:agingbarrelsv1.1.0",
+    "value": [
+      "/bir remapq agingbarrels:agingcask-upright-ns agingbarrels:agingcask force"
+    ]
+  }
+]

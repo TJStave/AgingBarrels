@@ -1,24 +1,57 @@
-﻿{
-	"ingredientPattern": "HP_,RPR,_P_",
-	"width": 3,
-	"height": 3,
-	"ingredients": {
-		"H": {
-			"type": "item",
-			"code": "game:hammer-*",
-			"isTool": true
+﻿[
+	{
+		"ingredientPattern": "_H_,NPN,_P_",
+		"width": 3,
+		"height": 3,
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "item",
+				"code": "game:plank-*"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-*"
+			}
 		},
-		"P": {
-			"type": "item",
-			"code": "game:plank-*"
-		},
-		"R": {
-			"type": "item",
-			"code": "game:rod-*"
+		"output": {
+			"type": "block",
+			"code": "agingcask-upright-ns"
 		}
 	},
-	"output": {
-		"type": "block",
-		"code": "agingcask"
+	{
+		"ingredientPattern": "C",
+		"width": 1,
+		"height": 1,
+		"recipeGroup": 1,
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "agingbarrels:agingcask-side-ns"
+			}
+		},
+		"output": {
+			"type": "block",
+			"code": "agingcask-upright-ns"
+		}
+	},
+	{
+		"ingredientPattern": "C",
+		"width": 1,
+		"height": 1,
+		"ingredients": {
+			"C": {
+				"type": "block",
+				"code": "agingbarrels:agingcask-upright-ns"
+			}
+		},
+		"output": {
+			"type": "block",
+			"code": "agingcask-side-ns"
+		}
 	}
-}
+]

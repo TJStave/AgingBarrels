@@ -2,14 +2,39 @@
   "code": "agingcask",
   "class": "AgingBarrels.BlockAgingBarrel",
   "entityclass": "AgingBarrels.BlockEntityAgingBarrel",
-  "creativeinventory": { "general": [ "*" ] },
+  "creativeinventory": { "general": [ "*-ns" ] },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "upright", "side" ]
+    },
+    {
+      "code": "orientation",
+      "states": [ "ns", "we" ]
+    }
+  ],
+  "skipVariants": [
+    "agingcask-upright-we"
+  ],
   "attributes": {
     "capacityLitres": 20,
     "cureRate": 2,
     "inventoryClassName": "agingcask"
   },
-  "behaviors": [ { "name": "UnstableFalling" } ],
-  "shape": { "base": "block/agingcask" },
+  "behaviorsByType": {
+    "*-side-*": [ { "name": "NWOrientable" } ],
+    "*": [ { "name": "UnstableFalling" } ]
+  },
+  "shapeByType": {
+    "*-upright-*": { "base": "block/agingcask" },
+    "*-side-*": {
+      "base": "block/agingcask-side",
+      "rotateYByType": {
+        "*-ns": 0,
+        "*-we": 90
+      }
+    }
+  },
   "blockmaterial": "Wood",
   "resistance": 1.5,
   "sounds": {
