@@ -1,15 +1,57 @@
 {
   "code": "agingtank",
-  "class": "AgingBarrels.BlockAgingBarrel",
-  "entityclass": "AgingBarrels.BlockEntityAgingBarrel",
-  "creativeinventory": { "general": [ "*" ] },
+  "classbytype": {
+    "*-window-*": "AgingBarrels.BlockViewableAgingBarrel",
+    "*": "AgingBarrels.BlockAgingBarrel"
+  },
+  "entityclassbytype": {
+    "*-window-*": "AgingBarrels.BlockEntityViewableAgingBarrel",
+    "*": "AgingBarrels.BlockEntityAgingBarrel"
+  },
+  "creativeinventory": { "general": [ "*-north" ] },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "normal", "window" ]
+    },
+    {
+      "code": "side",
+      "loadFromProperties": "abstract/horizontalorientation"
+    }
+  ],
+  "skipVariants": [
+    "agingtank-normal-west",
+    "agingtank-normal-south",
+    "agingtank-normal-east"
+  ],
   "attributes": {
     "capacityLitres": 50,
     "cureRate": 10,
     "inventoryClassName": "agingtank"
   },
-  "behaviors": [ { "name": "UnstableFalling" } ],
-  "shape": { "base": "block/agingtank" },
+  "behaviorsbytype": {
+    "*-window-*": [ { "name": "HorizontalOrientable" } ],
+    "*": [ { "name": "UnstableFalling" } ]
+  },
+  "shapebytype": {
+    "*-normal-*": { "base": "block/agingtank" },
+    "*-window-*": { "base": "block/agingtank-window" }
+  },
+  "collisionSelectionBox": {
+    "x1": 0.125,
+    "y1": 0,
+    "z1": 0.125,
+    "x2": 0.875,
+    "y2": 1,
+    "z2": 0.875
+  },
+  "guiTransform": {
+    "rotation": {
+      "x": -22.6,
+      "y": -135,
+      "z": 0
+    }
+  },
   "blockmaterial": "Metal",
   "resistance": 2,
   "sounds": {
@@ -19,10 +61,17 @@
     "walk": "game:walk/glass"
   },
   "sidesolid": {
-    "up": true,
-    "all": false
+    "verticals": true,
+    "horizontals": false
   },
   "sideopaque": {
     "all": false
-  }
+  },
+  "sideao": {
+    "all": false
+  },
+  "emitsideao": {
+    "all": false
+  },
+  "lightAbsorption": 1
 }

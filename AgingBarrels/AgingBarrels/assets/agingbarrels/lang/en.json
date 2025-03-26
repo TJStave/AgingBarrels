@@ -1,7 +1,8 @@
 {
   "block-agingcask-upright-*": "Aging Cask",
   "block-agingcask-side-*": "Aging Cask (Side)",
-  "block-agingtank": "Aging Tank",
+  "block-agingtank-normal-*": "Aging Tank",
+  "block-agingtank-window-*": "Aging Tank (Window)",
   "helddesc-agingcask": "Liquids stored in this cask cure 2x faster.",
   "helddesc-agingtank": "Liquids stored in this tank cure 10x faster."
 }

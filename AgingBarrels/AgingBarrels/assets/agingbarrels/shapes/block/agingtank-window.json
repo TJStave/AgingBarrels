@@ -9,8 +9,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"plain": "block/glass/plain",
-		"steel5": "block/metal/sheet/steel5"
+		"plain": "game:block/glass/plain",
+		"steel5": "game:block/metal/sheet/steel5"
 	},
 	"elements": [
 		{
@@ -422,6 +422,7 @@
 			"name": "Window",
 			"from": [ 4.0, 3.5, 14.0 ],
 			"to": [ 12.0, 12.5, 14.5 ],
+			"renderPass": 3,
 			"rotationOrigin": [ 4.0, 3.0, 14.0 ],
 			"faces": {
 				"north": { "texture": "#plain", "uv": [ 5.0, 3.0, 13.0, 12.0 ], "windMode": [-1,-1,-1,-1] },

@@ -1,0 +1,24 @@
+{
+	"editor": {
+		"collapsedPaths": ",Root/TankFloor,Root/TankWalls,Root/TankWalls/TankWindowWall",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"fill-redcurrant": "block/food/pie/fill-redcurrant"
+	},
+	"elements": [
+		{
+			"name": "WindowLiquid4",
+			"from": [ 4.0, -11.99, 12.999 ],
+			"to": [ 12.0, -8.99, 13.999 ],
+			"rotationOrigin": [ 4.0, -11.99, 12.999 ],
+			"faces": {
+				"south": { "texture": "#fill-redcurrant", "uv": [ 4.0, 10.0, 12.0, 13.0 ], "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

@@ -1,24 +1,45 @@
-﻿{
-	"ingredientPattern": "NPN,PHP,NPN",
-	"width": 3,
-	"height": 3,
-	"ingredients": {
-		"H": {
-			"type": "item",
-			"code": "game:hammer-*",
-			"isTool": true
+﻿[
+	{
+		"ingredientPattern": "NPN,PHP,NPN",
+		"width": 3,
+		"height": 3,
+		"ingredients": {
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-steel"
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel"
+			}
 		},
-		"P": {
-			"type": "item",
-			"code": "game:metalplate-steel"
-		},
-		"N": {
-			"type": "item",
-			"code": "game:metalnailsandstrips-steel"
+		"output": {
+			"type": "block",
+			"code": "agingtank-normal-north"
 		}
 	},
-	"output": {
-		"type": "block",
-		"code": "agingtank"
+	{
+		"ingredientPattern": "G,T",
+		"width": 1,
+		"height": 2,
+		"ingredients": {
+			"G": {
+				"type": "block",
+				"code": "game:glassslab-*"
+			},
+			"T": {
+				"type": "block",
+				"code": "agingbarrels:agingtank-normal-north"
+			}
+		},
+		"output": {
+			"type": "block",
+			"code": "agingtank-window-north"
+		}
 	}
-}
+]

@@ -9,7 +9,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"steel5": "block/metal/sheet/steel5"
+		"steel5": "game:block/metal/sheet/steel5"
 	},
 	"elements": [
 		{

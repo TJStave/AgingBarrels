@@ -11,7 +11,7 @@ using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
 
-namespace AgingBarrelsMod
+namespace AgingBarrels
 {
     public class BlockAgingBarrel: BlockLiquidContainerBase
     {
