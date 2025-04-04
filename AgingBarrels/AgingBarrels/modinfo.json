@@ -6,7 +6,7 @@
         "PurplePi"
     ],
     "description": "Adds barrels for speeding up the aging process of alchohol",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "dependencies": {
         "game": ""
     }

@@ -14,8 +14,8 @@
 	"elements": [
 		{
 			"name": "WindowLiquid2",
-			"from": [ 4.0, -5.99, 12.999 ],
-			"to": [ 12.0, -2.99, 13.999 ],
+			"from": [ 4.0, -5.99, 12.959 ],
+			"to": [ 12.0, -2.99, 13.959 ],
 			"rotationOrigin": [ 4.0, -5.99, 12.999 ],
 			"faces": {
 				"south": { "texture": "#fill-redcurrant", "uv": [ 4.0, 4.0, 12.0, 7.0 ], "windMode": [-1,-1,-1,-1] }
