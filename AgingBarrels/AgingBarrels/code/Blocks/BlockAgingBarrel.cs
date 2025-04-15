@@ -119,7 +119,7 @@ namespace AgingBarrels
                             dsc.Append(comma);
                             if (transitionLevel > 0)
                             {
-                                dsc.Append(Lang.Get("{0}% cured", (int)Math.Round(transitionLevel * 100)));
+                                dsc.Append(Lang.Get("agingbarrels:percent-cured", (int)Math.Round(transitionLevel * 100)));
                             }
                             else
                             {
@@ -127,15 +127,15 @@ namespace AgingBarrels
 
                                 if (freshHoursLeft / hoursPerday >= Api.World.Calendar.DaysPerYear)
                                 {
-                                    dsc.Append(Lang.Get("will cure in {0} years", Math.Round(freshHoursLeft / hoursPerday / Api.World.Calendar.DaysPerYear, 1)));
+                                    dsc.Append(Lang.Get("agingbarrels:curetime-years", Math.Round(freshHoursLeft / hoursPerday / Api.World.Calendar.DaysPerYear, 1)));
                                 }
                                 else if (freshHoursLeft > hoursPerday)
                                 {
-                                    dsc.Append(Lang.Get("will cure in {0} days", Math.Round(freshHoursLeft / hoursPerday, 1)));
+                                    dsc.Append(Lang.Get("agingbarrels:curetime-days", Math.Round(freshHoursLeft / hoursPerday, 1)));
                                 }
                                 else
                                 {
-                                    dsc.Append(Lang.Get("will cure in {0} hours", Math.Round(freshHoursLeft, 1)));
+                                    dsc.Append(Lang.Get("agingbarrels:curetime-hours", Math.Round(freshHoursLeft, 1)));
                                 }
                             }
                             break;
