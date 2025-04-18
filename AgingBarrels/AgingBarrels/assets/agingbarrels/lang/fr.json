@@ -2,11 +2,11 @@
   "block-agingcask-upright-*": "Fût de vieillissement",
   "block-agingcask-side-*": "Fût de vieillissement (Côté)",
   "block-agingtank-normal-*": "Cuve de vieillissement",
-  "block-agingtank-window-*": "Cuve de vieillissement (Fenêtre)",
-  "helddesc-agingcask": "Les liquides stockés dans ce fût sont traités deux fois plus vite.",
-  "helddesc-agingtank": "Les liquides stockés dans cette cuve sont traités dix fois plus vite.",
-  "percent-cured": "{0}% traité",
-  "curetime-years": "sera traité dans {0} ans",
-  "curetime-days": "sera traité dans {0} jours",
-  "curetime-hours": "sera traité dans {0} heures"
+  "block-agingtank-window-*": "Cuve de vieillissement (Vitré)",
+  "helddesc-agingcask": "Les liquides stockés dans ce fût sont vieillis deux fois plus vite.",
+  "helddesc-agingtank": "Les liquides stockés dans cette cuve sont vieillis dix fois plus vite.",
+  "percent-cured": "{0} % vieilli",
+  "curetime-years": "arrivera à terme dans {0} an(s)",
+  "curetime-days": "arrivera à terme dans {0} jour(s)",
+  "curetime-hours": "arrivera à terme dans {0} heure(s)"
 }
