@@ -6,10 +6,11 @@
     "PurplePi"
   ],
   "contributors": [
-    "Wailwolf"
+    "Wailwolf",
+    "BalaurGD"
   ],
   "description": "Adds barrels for speeding up the aging process of alchohol",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "dependencies": {
     "game": ""
   }
